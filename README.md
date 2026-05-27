@@ -159,6 +159,26 @@ JWT_SECRET=your_secret_key
 
 ---
 
+## Screenshots
+
+![Login Page](image.png)
+![Dashboard](image-1.png)
+![Analytics](image-2.png)
+![Focus Mode](image-3.png)
+
+---
+
+## 🌐 Live Demo
+Frontend: https://level-up-productivity-app.vercel.app
+Backend: https://levelup-backend-lw0b.onrender.com
+
+## 🔗 GitHub Repository
+https://github.com/GauriMhetre/LevelUp-Productivity-App
+
+---
+
+
+
 ## 🚀 Future Improvements
 
 * AI productivity recommendations
