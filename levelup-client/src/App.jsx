@@ -6,6 +6,7 @@ import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard"; 
 import Analytics from "./pages/Analytics";
 import FocusMode from "./pages/FocusMode";
+import Leaderboard from "./pages/Leaderboard";
 import Signup from "./pages/Signup";
 import ProtectedRoute from "./components/ProtectedRoute";
 
@@ -67,6 +68,14 @@ function App(){
         element={
           <ProtectedRoute>
             <Analytics tasks={tasks} />
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/leaderboard"
+        element={
+          <ProtectedRoute>
+            <Leaderboard />
           </ProtectedRoute>
         }
       />

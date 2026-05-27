@@ -25,6 +25,13 @@ function Sidebar() {
         </Link>
 
         <Link
+          to="/leaderboard"
+          className="hover:bg-gray-800 p-3 rounded-lg"
+        >
+          Leaderboard
+        </Link>
+
+        <Link
           to="/focus"
           className="hover:bg-gray-800 p-3 rounded-lg"
         >

@@ -7,6 +7,7 @@ const authRoutes = require("./routes/authRoutes");
 const taskRoutes=require(
 "./routes/taskRoutes"
 );
+const leaderboardRoutes = require("./routes/leaderboardRoutes");
 
 connectDB();
 
@@ -21,6 +22,8 @@ app.use(
 "/api/tasks",
 taskRoutes
 );
+
+app.use("/api/leaderboard", leaderboardRoutes);
 
 app.get("/",(req,res)=>{
    res.send("Server running 🚀");
