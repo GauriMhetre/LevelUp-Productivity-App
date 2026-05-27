@@ -27,18 +27,16 @@ function TaskCard({ task, completeTask, deleteTask }) {
         <div className="flex gap-3">
 
           <button
-            onClick={() => completeTask(task.id)}
-            className="bg-green-600 px-4 py-2 rounded-lg hover:bg-green-700 text-white"
-          >
-            Complete
-          </button>
+onClick={() => completeTask(task._id)}
+>
+Complete
+</button>
 
-          <button
-            onClick={() => deleteTask(task.id)}
-            className="bg-red-600 px-4 py-2 rounded-lg hover:bg-red-700 text-white"
-          >
-            Delete
-          </button>
+<button
+onClick={() => deleteTask(task._id)}
+>
+Delete
+</button>
 
         </div>
 
