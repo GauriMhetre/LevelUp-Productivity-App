@@ -13,12 +13,12 @@ function Dashboard() {
 
   // XP persistence
   const [xp, setXp] = useState(() => {
-    return JSON.parse(localStorage.getItem("xp")) || 250;
+    return JSON.parse(localStorage.getItem("xp")) || 0;
   });
 
   // Streak persistence
   const [streak, setStreak] = useState(() => {
-    return JSON.parse(localStorage.getItem("streak")) || 5;
+    return JSON.parse(localStorage.getItem("streak")) || 0;
   });
 
   // Fetch tasks on page load
