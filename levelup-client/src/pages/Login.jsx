@@ -90,6 +90,21 @@ className="bg-purple-600 p-3 rounded text-white"
 Login
 </button>
 
+<p className="text-gray-400 mt-4 text-center">
+
+Don't have an account?
+
+<span
+onClick={() => navigate("/signup")}
+className="text-purple-400 cursor-pointer ml-2"
+>
+
+Signup
+
+</span>
+
+</p>
+
 </form>
 
 </div>
